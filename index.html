@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="shorcut icon" href="Reginashop.ico" />
+    <title>Reginashop | E-Commerce Website</title>
+  </head>
+  <body>
+    <!-- TOP NAVBAR -->
+    <div class="container1">
+      <div class="top-nav">
+        <img src="Reginashop.png" alt="" />
+      </div>
+      <div class="top-desc">
+        <i class="bi bi-telephone-inbound"> &nbsp;<b>(+62)</b> 896 6296 5599</i>
+      </div>
+      <div class="top-qna">DO YOU HAVE A QUESTIONS ?</div>
+    </div>
+    <!-- END OF TOP NAVBAR -->
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-dark fixed-top" style="background-color: #fd7e14">
+      <div class="container-fluid">
+        <a class="navbar-brand" style="font-family: 'IM Fell Great Primer', serif" href="index.html">Reginashop</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" style="background-color: #fd7e14" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header" style="background-color: #ffae6c">
+            <h5 class="offcanvas-title" style="color: aliceblue" id="offcanvasNavbarLabel"><i class="bi bi-arrow-right-square"></i></h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" style="font-size: 20px">
+              <li class="nav-item">
+                <br />
+                <a class="nav-link active" style="border-bottom: 1px solid white" aria-current="page" href="index.html"><i class="bi bi-house"></i> Beranda</a>
+              </li>
+              <li class="nav-item dropdown" style="border-bottom: 1px solid white; margin-left: 1rem">
+                <a class="nav-link dropdown-toggle" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-cart-check"></i> Produk</a>
+                <ul class="dropdown-menu" style="background-color: #fd7e14; border: unset" aria-labelledby="offcanvasNavbarDropdown">
+                  <li><a style="color: rgb(214, 214, 214)" class="dropdown-item" href="msi.html">Produk MSI</a></li>
+                  <hr class="dropdown-divider" style="color: white; height: 2px" />
+                  <li><a style="color: rgb(214, 214, 214)" class="dropdown-item" href="dapur.html">Peralatan Dapur</a></li>
+                  <li>
+                    <hr class="dropdown-divider" style="color: white; height: 2px" />
+                  </li>
+                  <li><a style="color: rgb(214, 214, 214)" class="dropdown-item" href="lainnya.html">Produk Lainnya</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="border-bottom: 1px solid white" href="#about"><i class="bi bi-info-circle"></i> Tentang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about"><i class="bi bi-telephone"></i> Hubungi kami</a>
+              </li>
+            </ul>
+            <div style="text-decoration: none; font-size: 20px; display: inline; margin-left: 3rem">
+              <div style="width: 40px; height: 40px; background-color: white; border-radius: 50%; text-align: center; line-height: 40px; display: inline-block; margin-top: 8rem">
+                <a href="https://www.facebook.com/profile.php?id=100009840422975"><i class="bi bi-facebook"></i></a>
+              </div>
+              <div style="width: 40px; height: 40px; background-color: white; border-radius: 50%; text-align: center; line-height: 40px; display: inline-block; margin-left: 1rem">
+                <a href="https://www.instagram.com/marcshop3/" style="color: #fd1d1d"><i class="bi bi-instagram"></i></a>
+              </div>
+              <div style="width: 40px; height: 40px; background-color: white; border-radius: 50%; text-align: center; line-height: 40px; display: inline-block; margin-left: 1rem">
+                <a href="https://t.me/rgnashop"><i class="bi bi-telegram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--<nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Produk </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="msi.html">Produk MSI</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="dapur.html">Peralatan Dapur</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="lainnya.html">Produk Lainnya</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+    <!-- END OF NAVBAR -->
+
+    <!-- HERO -->
+    <div class="hero">
+      <figure>
+        <img src="bg1.jpg" alt="" />
+        <div class="small-text">
+          <div class="one">Equipment you need</div>
+          <div class="two">For your new office and your life</div>
+        </div>
+        <!-- <button type="button" id="read-more">READ MORE</button> -->
+      </figure>
+    </div>
+    <!-- END OF HERO -->
+
+    <!-- DISPLAY -->
+    <div class="display">
+      <figure>
+        <img src="card.png" alt="" />
+      </figure>
+    </div>
+    <!-- END OF DISPLAY -->
+
+    <!-- LASTEST PRODUCTS -->
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br />
+    <div class="products">
+      <div class="l-products">
+        <span>Lastest Products</span>
+        <hr id="one" />
+      </div>
+      <br />
+      <section class="services">
+        <div class="service">
+          <div class="img">
+            <img src="Ls1.jpg" alt="" />
+          </div>
+          <h3>Aloevera Gel MSI</h3>
+          <p id="price">Rp 90.000</p>
+
+          <a href="http://Wa.me/6289662965599"
+            ><button type="button" id="pesan" class="btn"><i class="bi bi-cart"></i>&nbsp;Pesan</button></a
+          >
+        </div>
+        <div class="service">
+          <div class="img">
+            <img src="Ls2.jpg" alt="" />
+            <p></p>
+          </div>
+          <h3>Royal Flavid Propolis</h3>
+          <p id="price">Rp 55.000</p>
+
+          <a href="http://Wa.me/6289662965599"
+            ><button type="button" id="pesan" class="btn"><i class="bi bi-cart"></i>&nbsp;Pesan</button></a
+          >
+        </div>
+        <div class="service">
+          <div class="img">
+            <img src="Ls6.jpg" alt="" />
+          </div>
+          <h3>Facemist MSI</h3>
+          <p id="price">Rp 90.000</p>
+
+          <a href="http://Wa.me/6289662965599"
+            ><button type="button" id="pesan" class="btn"><i class="bi bi-cart"></i>&nbsp;Pesan</button></a
+          >
+        </div>
+        <div class="service">
+          <div class="img">
+            <img src="Ls5.jpg" alt="" />
+          </div>
+          <h3>Kapstock</h3>
+          <p id="price">Rp 8.000</p>
+          <a href="http://Wa.me/6289662965599"
+            ><button type="button" id="pesan" class="btn"><i class="bi bi-cart"></i>&nbsp;Pesan</button></a
+          >
+        </div>
+      </section>
+    </div>
+    <!-- END OF LASTEST PRODUCTS -->
+
+    <!-- FOOTER -->
+    <br />
+    <footer>
+      <div class="about" id="about">
+        <br />
+        Setelah bergerak memasarkan berbagai barang kebutuhan seperti produk kesehatan, produk kecantikan dan produk peralatan rumah tangga selama kurang lebih 3 tahun. Kini kami memulai inovasi baru dengan memasarkan dengan menggunakan
+        website online.
+        <br />
+        <br />
+        <strong>&copy; 2021 Reginashop</strong> All rights reserved.
+      </div>
+      <div class="link">
+        <a href="https://www.facebook.com/profile.php?id=100009840422975"
+          ><h3><i class="bi bi-facebook" id="facebook"></i></h3
+        ></a>
+        <a href="https://www.instagram.com/marcshop3/" style="color: #fd1d1d">
+          <h3><i class="bi bi-instagram" id="ig"></i></h3
+        ></a>
+        <a href="https://t.me/rgnashop">
+          <h3><i class="bi bi-telegram" id="tele"></i></h3>
+        </a>
+      </div>
+    </footer>
+    <!-- END OF FOOTER -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
