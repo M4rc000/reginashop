@@ -30,6 +30,7 @@
     "fast-glob": "^3.3.1",
     "fastq": "^1.15.0",
     "fill-range": "^7.0.1",
+    "flowbite": "^1.8.1",
     "fs.realpath": "^1.0.0",
     "function-bind": "^1.1.1",
     "glob": "^7.1.6",
@@ -80,6 +81,7 @@
     "thenify-all": "^1.6.0",
     "to-regex-range": "^5.0.1",
     "ts-interface-checker": "^0.1.13",
+    "tw-elements": "^1.0.0-beta3",
     "util-deprecate": "^1.0.2",
     "wrappy": "^1.0.2",
     "yaml": "^2.3.1"
